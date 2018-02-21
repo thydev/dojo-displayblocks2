@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border: 2px solid;
+}
+
+#container {
+  width: 980px;
+  height: auto;
+  background: grey;
+  margin: 0 auto;
+  padding: 20px
+}
+
+.red {
+  background: red;
+  width: 460px;
+  height: 100px;
+  /* margin-bottom: 15px; */
+  padding: 0;
+}
+
+#red1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#red2 {
+  display: inline-block;
+}
+
+.blue {
+  width: 950px;
+  height: 100px;
+  background: blue;
+  margin-top: 20px;
+
+}
+
+.yellow {
+  width: 300px;
+  height: 100px;
+  background: yellow;
+  /* margin: 20px 20px 0 0; */
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#yellow1, #yellow2 {
+  margin-right: 20px;
+}
+
+#yellow3 {
+  margin-right: 0;
+}
+
+.green {
+  width: 915px;
+  height: 110px;
+  background: green;
+  display: block;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.purple {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  display: inline-block;
+}
+
+#purple1 {
+  float: left;
+}
+
+#purple2 {
+  float: right;
+}
